@@ -16,4 +16,5 @@
 14. grep -i "root" /etc/passwd Display lines containing the pattern “root” from the file /etc/passwd
 15. grep c- i- "bin" /etc/passwd Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
 16.  grep -i "root" -A 3 | /etc/passwd Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
-17. 
+17. grep -i -v "bin" /etc/passwd Display all the lines in the file /etc/passwd that do not contain the pattern “bin”
+18.  
