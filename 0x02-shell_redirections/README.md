@@ -20,4 +20,5 @@
 18.  grep -i "^[a-z]" /etc/ssh/sshd_config Display all lines of the file /etc/ssh/sshd_config starting with a letter
 19. tr "A" "Z" | tr "c" "e" Replace all characters A and c from input to Z and e respectively
 20.  tr -d "cC" Create a script that removes all letters c and C from inpu
-21. 
+21. rev Write a script that reverse its input
+22.  
