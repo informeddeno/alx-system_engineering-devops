@@ -21,4 +21,5 @@
 19. tr "A" "Z" | tr "c" "e" Replace all characters A and c from input to Z and e respectively
 20.  tr -d "cC" Create a script that removes all letters c and C from inpu
 21. rev Write a script that reverse its input
-22.  
+22.  cut -d ':' -f 1,6 /etc/passwd | sort Write a script that displays all users and their home directories, sorted by users
+
