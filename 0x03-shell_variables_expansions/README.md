@@ -15,4 +15,5 @@ no. 8
 echo $(($TRUEKNOWLEDGE + 128)) prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line+
 14.  printf '%x\n' $DECIMAL a script that converts a number from base 10 to base 16
 15. tr 'A-Za-z' 'N-ZA-Mn-za-m' Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
-16. 
+16. perl -lne 'print if $. % 2 ==1' a script that prints every other line from the input, starting with the first line
+17.  
