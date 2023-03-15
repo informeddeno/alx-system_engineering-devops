@@ -6,4 +6,5 @@ Shell, init files, variables and expansions
 6. set a script that lists all local variables and environment variables, and functions
 7. BEST="School" a script that creates a new local variable
 8. export BEST=School a script that creates a new global variable
-9. 
+9. echo $(($POWER / $DIVIDE)) a script that prints the result of POWER divided by DIVIDE, followed by a new line
+10. 
