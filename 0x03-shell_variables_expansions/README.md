@@ -11,4 +11,6 @@ Shell, init files, variables and expansions
 11. echo "$((2#$BINARY))" a script that converts a number from base 2 to base 10
 12. echo {a..z}{a..z} | tr " " "\n" | grep -v "oo" a script that prints all possible combinations of two letters, except oo
 13. printf "%.2f" $NUM | sort script that prints a number with two decimal places, followed by a new line
+no. 8
+echo $(($TRUEKNOWLEDGE + 128)) prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line+
 14.  
