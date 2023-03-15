@@ -10,4 +10,5 @@ Shell, init files, variables and expansions
 10. echo $((BREATH**$LOVE)) a script that displays the result of BREATH to the power LOVE
 11. echo "$((2#$BINARY))" a script that converts a number from base 2 to base 10
 12. echo {a..z}{a..z} | tr " " "\n" | grep -v "oo" a script that prints all possible combinations of two letters, except oo
-13.   
+13. printf "%.2f" $NUM | sort script that prints a number with two decimal places, followed by a new line
+14.  
