@@ -16,4 +16,5 @@ echo $(($TRUEKNOWLEDGE + 128)) prints the result of the addition of 128 with the
 14.  printf '%x\n' $DECIMAL a script that converts a number from base 10 to base 16
 15. tr 'A-Za-z' 'N-ZA-Mn-za-m' Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 16. perl -lne 'print if $. % 2 ==1' a script that prints every other line from the input, starting with the first line
-17.  
+17. echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'bestchol')  
+Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result
