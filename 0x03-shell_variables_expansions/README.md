@@ -14,3 +14,5 @@ Shell, init files, variables and expansions
 no. 8
 echo $(($TRUEKNOWLEDGE + 128)) prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line+
 14.  printf '%x\n' $DECIMAL a script that converts a number from base 10 to base 16
+15. tr 'A-Za-z' 'N-ZA-Mn-za-m' Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+16. 
