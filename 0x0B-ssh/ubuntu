@@ -7,3 +7,5 @@ Host *
         HashKnownHosts yes
         GSSAPIAuthentication yes
         GSSAPIDelegateCredentials no
+
+ssh-copy-id ubuntu@52.3.242.0       
