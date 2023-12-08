@@ -5,4 +5,4 @@ eval $("ssh-agent")
 
 ssh-add ~/.ssh/id_ubuntu16
 
-ssh ubuntu@34.239.255.185
+ssh ubuntu@100.25.36.178
