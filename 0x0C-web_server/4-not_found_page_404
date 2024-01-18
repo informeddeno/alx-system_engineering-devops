@@ -43,7 +43,7 @@ echo "server {
     index index.html index.htm index.nginx-debian.html;
 
     location /redirect_me {
-        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+        return 301 https://www.youtube.com/watch?v=aPi2IfjQiJY&t=1441s;
     }
 
     error_page 404 /404.html;
