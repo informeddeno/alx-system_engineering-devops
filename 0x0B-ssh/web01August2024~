@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#server-01 login
+
+eval $("ssh-agent")
+
+ssh -i ~/.ssh/school ubuntu@18.234.129.123
+
+ssh ubuntu@18.234.129.123
