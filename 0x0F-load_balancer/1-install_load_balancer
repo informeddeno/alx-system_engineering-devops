@@ -17,8 +17,8 @@ backend servers
     timeout connect  3000
     timeout server  30000
     balance roundrobin
-    server 341922-web-01 34.239.255.185 check
-    server 341922-web-02 18.206.202.39 check
+    server 341922-web-01 54.210.52.72 check
+    server 341922-web-02 52.73.251.137 check
 EOT
 
 sudo service haproxy restart
